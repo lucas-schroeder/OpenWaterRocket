@@ -1,7 +1,10 @@
-from flask import Flask
+import streamlit as st
 
-app = Flask("OpenWaterRocket")
-
-@app.route("/")
-def index():
-    return "Wellcome"
+menu = st.sidebar.radio(
+    "Select step",
+    (
+        "Introduction",
+        "Geometry",
+        "Fuel",
+    )
+)
