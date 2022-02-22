@@ -1,5 +1,7 @@
-Flask==2.0.3
-streamlit==1.5.1
-numpy>=1.22
-pytest>=7
-autopep8>=1.6
+matplotlib
+plotly
+streamlit
+numpy
+pandas
+pytest
+autopep8

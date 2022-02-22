@@ -6,6 +6,8 @@
 
 Python application for Water Rocket design
 
+Click [here](https://share.streamlit.io/lucas-schroeder/openwaterrocket/main/src/app.py) to access the web app
+
 ## Objectives
 
 The idea of this project is to create a tool for analysing water rockets designs.
