@@ -16,9 +16,10 @@ def page_introduction(wr: WaterRocket) -> WaterRocket:
         """
              )
 
-    st.warning("This is only a very initial prototype!")
+    st.warning("This is only a VERY initial prototype!")
 
     st.write("""
+        ---
         ## Load data
         
         You can load a .json file with your project data,
@@ -34,7 +35,13 @@ def page_introduction(wr: WaterRocket) -> WaterRocket:
     )
 
     if data:
-        st.write("Loaded Data:")
+        st.write("""
+            ---
+            ## Loaded Data
+
+            Data loaded successfully.
+            """
+                 )
         data_str = StringIO(data.getvalue().decode("utf-8")).read()
         data_json = json.loads(data_str)
         st.json(data_json)
