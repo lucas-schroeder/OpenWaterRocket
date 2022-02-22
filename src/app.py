@@ -16,7 +16,7 @@ def main():
             "Propulsion",
             "Summary"
         ),
-        index=2,
+        index=0,
     )
 
     if page == "Introduction":
